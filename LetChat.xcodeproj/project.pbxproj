@@ -12,9 +12,13 @@
 		BDCA264D218B03F700B5D775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCA264B218B03F700B5D775 /* Main.storyboard */; };
 		BDCA264F218B03F800B5D775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDCA264E218B03F800B5D775 /* Assets.xcassets */; };
 		BDCA2652218B03F800B5D775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCA2650218B03F800B5D775 /* LaunchScreen.storyboard */; };
+		BDCA265A218B0AC600B5D775 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDCA2659218B0AC600B5D775 /* GoogleService-Info.plist */; };
+		D5025021BB25E221238B5A1E /* Pods_LetChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF4FBD62BB2AFF53CDC4C80 /* Pods_LetChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		896179FF7AC3860957F19E11 /* Pods-LetChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-LetChat/Pods-LetChat.release.xcconfig"; sourceTree = "<group>"; };
+		9FF4FBD62BB2AFF53CDC4C80 /* Pods_LetChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCA2644218B03F700B5D775 /* LetChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCA2647218B03F700B5D775 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDCA2649218B03F700B5D775 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		BDCA264E218B03F800B5D775 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDCA2651218B03F800B5D775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDCA2653218B03F800B5D775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDCA2659218B0AC600B5D775 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DDF106F72BEA1D032000F723 /* Pods-LetChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LetChat/Pods-LetChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5025021BB25E221238B5A1E /* Pods_LetChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		596D2070C12D301470A77E2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDF106F72BEA1D032000F723 /* Pods-LetChat.debug.xcconfig */,
+				896179FF7AC3860957F19E11 /* Pods-LetChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9BF31A9D26D9167964CC5C49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FF4FBD62BB2AFF53CDC4C80 /* Pods_LetChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BDCA263B218B03F700B5D775 = {
 			isa = PBXGroup;
 			children = (
 				BDCA2646218B03F700B5D775 /* LetChat */,
 				BDCA2645218B03F700B5D775 /* Products */,
+				596D2070C12D301470A77E2E /* Pods */,
+				9BF31A9D26D9167964CC5C49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +82,7 @@
 			children = (
 				BDCA2647218B03F700B5D775 /* AppDelegate.swift */,
 				BDCA2649218B03F700B5D775 /* ViewController.swift */,
+				BDCA2659218B0AC600B5D775 /* GoogleService-Info.plist */,
 				BDCA264B218B03F700B5D775 /* Main.storyboard */,
 				BDCA264E218B03F800B5D775 /* Assets.xcassets */,
 				BDCA2650218B03F800B5D775 /* LaunchScreen.storyboard */,
@@ -71,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDCA2656218B03F800B5D775 /* Build configuration list for PBXNativeTarget "LetChat" */;
 			buildPhases = (
+				E741A432538AF39505487756 /* [CP] Check Pods Manifest.lock */,
 				BDCA2640218B03F700B5D775 /* Sources */,
 				BDCA2641218B03F700B5D775 /* Frameworks */,
 				BDCA2642218B03F700B5D775 /* Resources */,
+				F6A640A29369A47CAC2BBCEB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,12 +152,58 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDCA2652218B03F800B5D775 /* LaunchScreen.storyboard in Resources */,
+				BDCA265A218B0AC600B5D775 /* GoogleService-Info.plist in Resources */,
 				BDCA264F218B03F800B5D775 /* Assets.xcassets in Resources */,
 				BDCA264D218B03F700B5D775 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E741A432538AF39505487756 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LetChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A640A29369A47CAC2BBCEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LetChat/Pods-LetChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LetChat/Pods-LetChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BDCA2640218B03F700B5D775 /* Sources */ = {
@@ -280,6 +355,7 @@
 		};
 		BDCA2657218B03F800B5D775 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDF106F72BEA1D032000F723 /* Pods-LetChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +374,7 @@
 		};
 		BDCA2658218B03F800B5D775 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 896179FF7AC3860957F19E11 /* Pods-LetChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
