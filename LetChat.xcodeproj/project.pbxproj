@@ -59,6 +59,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BDC8D700218B0BE6009FFBC2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BDCA2650218B03F800B5D775 /* LaunchScreen.storyboard */,
+				BDCA264B218B03F700B5D775 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		BDCA263B218B03F700B5D775 = {
 			isa = PBXGroup;
 			children = (
@@ -83,9 +92,8 @@
 				BDCA2647218B03F700B5D775 /* AppDelegate.swift */,
 				BDCA2649218B03F700B5D775 /* ViewController.swift */,
 				BDCA2659218B0AC600B5D775 /* GoogleService-Info.plist */,
-				BDCA264B218B03F700B5D775 /* Main.storyboard */,
+				BDC8D700218B0BE6009FFBC2 /* View */,
 				BDCA264E218B03F800B5D775 /* Assets.xcassets */,
-				BDCA2650218B03F800B5D775 /* LaunchScreen.storyboard */,
 				BDCA2653218B03F800B5D775 /* Info.plist */,
 			);
 			path = LetChat;
