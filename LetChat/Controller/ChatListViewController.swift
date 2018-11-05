@@ -10,21 +10,25 @@ import UIKit
 
 class ChatListViewController: UIViewController {
 
-    @IBOutlet weak var testVieew: UIView!
+    @IBOutlet weak var chatListTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        isX()
+
+    }
+
+    @IBAction func moreFunc(_ sender: UIBarButtonItem) {
     }
     
-    func isX() -> Bool{
-        if UIScreen.main.bounds.height == 812{
-          
-            return true
-        }
-        return false
-    }
+//    func isX() -> Bool{
+//        if UIScreen.main.bounds.height == 812{
+//
+//            return true
+//        }
+//        return false
+//    }
     
     
     
