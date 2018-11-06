@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD5C19C42191357400405BF6 /* FriendList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5C19C32191357400405BF6 /* FriendList.swift */; };
+		BD5C19C62191506500405BF6 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5C19C52191506500405BF6 /* MeViewController.swift */; };
 		BDC8D702218C0211009FFBC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDC8D701218C0211009FFBC2 /* GoogleService-Info.plist */; };
 		BDC8D704218C3B39009FFBC2 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC8D703218C3B39009FFBC2 /* ChatListViewController.swift */; };
 		BDCA2648218B03F700B5D775 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCA2647218B03F700B5D775 /* AppDelegate.swift */; };
@@ -16,12 +18,15 @@
 		BDCA2652218B03F800B5D775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCA2650218B03F800B5D775 /* LaunchScreen.storyboard */; };
 		BDE764962190365D006CFF74 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE764942190365D006CFF74 /* CustomCell.swift */; };
 		BDE764972190365D006CFF74 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDE764952190365D006CFF74 /* CustomCell.xib */; };
+		BDE7649A219040BF006CFF74 /* ChatDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE76499219040BF006CFF74 /* ChatDetailViewController.swift */; };
 		D5025021BB25E221238B5A1E /* Pods_LetChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF4FBD62BB2AFF53CDC4C80 /* Pods_LetChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		896179FF7AC3860957F19E11 /* Pods-LetChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-LetChat/Pods-LetChat.release.xcconfig"; sourceTree = "<group>"; };
 		9FF4FBD62BB2AFF53CDC4C80 /* Pods_LetChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5C19C32191357400405BF6 /* FriendList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendList.swift; sourceTree = "<group>"; };
+		BD5C19C52191506500405BF6 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		BDC8D701218C0211009FFBC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BDC8D703218C3B39009FFBC2 /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
 		BDCA2644218B03F700B5D775 /* LetChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +38,7 @@
 		BDCA2653218B03F800B5D775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDE764942190365D006CFF74 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		BDE764952190365D006CFF74 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		BDE76499219040BF006CFF74 /* ChatDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDetailViewController.swift; sourceTree = "<group>"; };
 		DDF106F72BEA1D032000F723 /* Pods-LetChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LetChat/Pods-LetChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +108,7 @@
 				BDC8D700218B0BE6009FFBC2 /* View */,
 				BDCA264E218B03F800B5D775 /* Assets.xcassets */,
 				BDCA2653218B03F800B5D775 /* Info.plist */,
+				BD5C19C32191357400405BF6 /* FriendList.swift */,
 			);
 			path = LetChat;
 			sourceTree = "<group>";
@@ -109,7 +116,9 @@
 		BDE76493219027EC006CFF74 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BD5C19C52191506500405BF6 /* MeViewController.swift */,
 				BDC8D703218C3B39009FFBC2 /* ChatListViewController.swift */,
+				BDE76499219040BF006CFF74 /* ChatDetailViewController.swift */,
 				BDCA2649218B03F700B5D775 /* ViewController.swift */,
 			);
 			path = Controller;
@@ -245,9 +254,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDC8D704218C3B39009FFBC2 /* ChatListViewController.swift in Sources */,
+				BD5C19C62191506500405BF6 /* MeViewController.swift in Sources */,
+				BDE7649A219040BF006CFF74 /* ChatDetailViewController.swift in Sources */,
 				BDCA264A218B03F700B5D775 /* ViewController.swift in Sources */,
 				BDE764962190365D006CFF74 /* CustomCell.swift in Sources */,
 				BDCA2648218B03F700B5D775 /* AppDelegate.swift in Sources */,
+				BD5C19C42191357400405BF6 /* FriendList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -36,11 +36,11 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14:50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kBy-8M-SO0">
-                        <rect key="frame" x="270" y="14" width="42" height="20"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14:50" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kBy-8M-SO0">
+                        <rect key="frame" x="278" y="14" width="42" height="20"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="42" id="Hc6-54-tdE"/>
-                            <constraint firstAttribute="height" constant="20" id="M6e-MF-dla"/>
+                            <constraint firstAttribute="width" constant="42" id="2VK-o6-Llu"/>
+                            <constraint firstAttribute="height" constant="20" id="sO1-nc-kgc"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                         <color key="textColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -58,13 +58,13 @@
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="kBy-8M-SO0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="2YO-cV-KIV"/>
                     <constraint firstItem="7Li-90-zsY" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="4dh-la-c26"/>
-                    <constraint firstAttribute="trailing" secondItem="kBy-8M-SO0" secondAttribute="trailing" constant="8" id="56h-jb-6hB"/>
                     <constraint firstItem="7Li-90-zsY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Ghg-5c-Slp"/>
                     <constraint firstItem="IdH-Oh-wvd" firstAttribute="top" secondItem="MVe-TS-io5" secondAttribute="bottom" constant="8" id="Kxi-27-vPA"/>
                     <constraint firstItem="IdH-Oh-wvd" firstAttribute="leading" secondItem="7Li-90-zsY" secondAttribute="trailing" constant="4" id="P6c-PG-6yX"/>
+                    <constraint firstAttribute="trailing" secondItem="kBy-8M-SO0" secondAttribute="trailing" id="RBV-IS-dXi"/>
                     <constraint firstItem="MVe-TS-io5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="TEA-me-N2Y"/>
+                    <constraint firstItem="kBy-8M-SO0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="oCf-YX-10p"/>
                     <constraint firstItem="MVe-TS-io5" firstAttribute="leading" secondItem="7Li-90-zsY" secondAttribute="trailing" constant="4" id="sER-aJ-Taa"/>
                 </constraints>
             </tableViewCellContentView>

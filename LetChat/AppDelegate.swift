@@ -19,6 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         FirebaseApp.configure()
 
+        //Navigation bar button color
+        UINavigationBar.appearance().tintColor = UIColor.white
+
         return true
     }
 
