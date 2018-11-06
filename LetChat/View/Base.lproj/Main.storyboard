@@ -327,22 +327,9 @@
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="gray" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="settingPageCell" id="O0Z-tv-W9U">
                                         <rect key="frame" x="0.0" y="55.5" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="O0Z-tv-W9U" id="gjN-pR-0yZ">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="O0Z-tv-W9U" id="gjN-pR-0yZ">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TWP-F0-wa9">
-                                                    <rect key="frame" x="15" y="10" width="56" height="48.5"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="48" id="DQl-oa-c3w"/>
-                                                        <constraint firstAttribute="width" constant="48" id="p1J-ia-kbh"/>
-                                                    </constraints>
-                                                </imageView>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="TWP-F0-wa9" firstAttribute="top" secondItem="gjN-pR-0yZ" secondAttribute="top" constant="10" id="lIZ-N2-zXO"/>
-                                                <constraint firstAttribute="bottom" secondItem="TWP-F0-wa9" secondAttribute="bottom" constant="10" id="pvh-FZ-OPP"/>
-                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
