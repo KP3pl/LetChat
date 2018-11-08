@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD2A21E82192F45100A7E37B /* EditNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2A21E72192F45100A7E37B /* EditNameViewController.swift */; };
 		BD5C19C42191357400405BF6 /* FriendList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5C19C32191357400405BF6 /* FriendList.swift */; };
 		BD5C19C62191506500405BF6 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5C19C52191506500405BF6 /* MeViewController.swift */; };
+		BD5C19E621919DFE00405BF6 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5C19E521919DFE00405BF6 /* InfoViewController.swift */; };
+		BD5C19EA2192C7E400405BF6 /* MorePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5C19E92192C7E400405BF6 /* MorePageViewController.swift */; };
 		BDC8D702218C0211009FFBC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDC8D701218C0211009FFBC2 /* GoogleService-Info.plist */; };
 		BDC8D704218C3B39009FFBC2 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC8D703218C3B39009FFBC2 /* ChatListViewController.swift */; };
 		BDCA2648218B03F700B5D775 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCA2647218B03F700B5D775 /* AppDelegate.swift */; };
@@ -25,8 +28,11 @@
 /* Begin PBXFileReference section */
 		896179FF7AC3860957F19E11 /* Pods-LetChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-LetChat/Pods-LetChat.release.xcconfig"; sourceTree = "<group>"; };
 		9FF4FBD62BB2AFF53CDC4C80 /* Pods_LetChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2A21E72192F45100A7E37B /* EditNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNameViewController.swift; sourceTree = "<group>"; };
 		BD5C19C32191357400405BF6 /* FriendList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendList.swift; sourceTree = "<group>"; };
 		BD5C19C52191506500405BF6 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		BD5C19E521919DFE00405BF6 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		BD5C19E92192C7E400405BF6 /* MorePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorePageViewController.swift; sourceTree = "<group>"; };
 		BDC8D701218C0211009FFBC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BDC8D703218C3B39009FFBC2 /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
 		BDCA2644218B03F700B5D775 /* LetChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +122,9 @@
 		BDE76493219027EC006CFF74 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BD2A21E72192F45100A7E37B /* EditNameViewController.swift */,
+				BD5C19E92192C7E400405BF6 /* MorePageViewController.swift */,
+				BD5C19E521919DFE00405BF6 /* InfoViewController.swift */,
 				BD5C19C52191506500405BF6 /* MeViewController.swift */,
 				BDC8D703218C3B39009FFBC2 /* ChatListViewController.swift */,
 				BDE76499219040BF006CFF74 /* ChatDetailViewController.swift */,
@@ -229,15 +238,27 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LetChat/Pods-LetChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -258,8 +279,11 @@
 				BDE7649A219040BF006CFF74 /* ChatDetailViewController.swift in Sources */,
 				BDCA264A218B03F700B5D775 /* ViewController.swift in Sources */,
 				BDE764962190365D006CFF74 /* CustomCell.swift in Sources */,
+				BD5C19EA2192C7E400405BF6 /* MorePageViewController.swift in Sources */,
 				BDCA2648218B03F700B5D775 /* AppDelegate.swift in Sources */,
+				BD5C19E621919DFE00405BF6 /* InfoViewController.swift in Sources */,
 				BD5C19C42191357400405BF6 /* FriendList.swift in Sources */,
+				BD2A21E82192F45100A7E37B /* EditNameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

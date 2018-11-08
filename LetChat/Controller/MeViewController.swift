@@ -27,6 +27,10 @@ class MeViewController: UIViewController,UITableViewDelegate,UITableViewDataSour
         
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        self.tabBarController?.tabBar.isHidden = false
+    }
+    
     //MARK: - TableView manipulation
     func numberOfSections(in tableView: UITableView) -> Int {
         return 4
