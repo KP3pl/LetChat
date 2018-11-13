@@ -12,6 +12,9 @@
 		BD5C19C62191506500405BF6 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5C19C52191506500405BF6 /* MeViewController.swift */; };
 		BD5C19E621919DFE00405BF6 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5C19E521919DFE00405BF6 /* InfoViewController.swift */; };
 		BD5C19EA2192C7E400405BF6 /* MorePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5C19E92192C7E400405BF6 /* MorePageViewController.swift */; };
+		BD713ACF219576AD005A6424 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD713ACE219576AD005A6424 /* MyCollectionViewCell.swift */; };
+		BD713AD1219576BC005A6424 /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD713AD0219576BC005A6424 /* MyCollectionViewController.swift */; };
+		BD713AD321957908005A6424 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD713AD221957908005A6424 /* TestViewController.swift */; };
 		BDC8D702218C0211009FFBC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDC8D701218C0211009FFBC2 /* GoogleService-Info.plist */; };
 		BDC8D704218C3B39009FFBC2 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC8D703218C3B39009FFBC2 /* ChatListViewController.swift */; };
 		BDCA2648218B03F700B5D775 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCA2647218B03F700B5D775 /* AppDelegate.swift */; };
@@ -19,6 +22,7 @@
 		BDCA264D218B03F700B5D775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCA264B218B03F700B5D775 /* Main.storyboard */; };
 		BDCA264F218B03F800B5D775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDCA264E218B03F800B5D775 /* Assets.xcassets */; };
 		BDCA2652218B03F800B5D775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCA2650218B03F800B5D775 /* LaunchScreen.storyboard */; };
+		BDD230FC2194363E005A3A3C /* ProfilePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD230FB2194363E005A3A3C /* ProfilePhotoViewController.swift */; };
 		BDE764962190365D006CFF74 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE764942190365D006CFF74 /* CustomCell.swift */; };
 		BDE764972190365D006CFF74 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDE764952190365D006CFF74 /* CustomCell.xib */; };
 		BDE7649A219040BF006CFF74 /* ChatDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE76499219040BF006CFF74 /* ChatDetailViewController.swift */; };
@@ -33,6 +37,9 @@
 		BD5C19C52191506500405BF6 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		BD5C19E521919DFE00405BF6 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		BD5C19E92192C7E400405BF6 /* MorePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorePageViewController.swift; sourceTree = "<group>"; };
+		BD713ACE219576AD005A6424 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		BD713AD0219576BC005A6424 /* MyCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
+		BD713AD221957908005A6424 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		BDC8D701218C0211009FFBC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BDC8D703218C3B39009FFBC2 /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
 		BDCA2644218B03F700B5D775 /* LetChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +49,7 @@
 		BDCA264E218B03F800B5D775 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDCA2651218B03F800B5D775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDCA2653218B03F800B5D775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDD230FB2194363E005A3A3C /* ProfilePhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePhotoViewController.swift; sourceTree = "<group>"; };
 		BDE764942190365D006CFF74 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		BDE764952190365D006CFF74 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 		BDE76499219040BF006CFF74 /* ChatDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDetailViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +130,7 @@
 		BDE76493219027EC006CFF74 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BDD230FB2194363E005A3A3C /* ProfilePhotoViewController.swift */,
 				BD2A21E72192F45100A7E37B /* EditNameViewController.swift */,
 				BD5C19E92192C7E400405BF6 /* MorePageViewController.swift */,
 				BD5C19E521919DFE00405BF6 /* InfoViewController.swift */,
@@ -129,6 +138,9 @@
 				BDC8D703218C3B39009FFBC2 /* ChatListViewController.swift */,
 				BDE76499219040BF006CFF74 /* ChatDetailViewController.swift */,
 				BDCA2649218B03F700B5D775 /* ViewController.swift */,
+				BD713ACE219576AD005A6424 /* MyCollectionViewCell.swift */,
+				BD713AD0219576BC005A6424 /* MyCollectionViewController.swift */,
+				BD713AD221957908005A6424 /* TestViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -274,8 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD713AD321957908005A6424 /* TestViewController.swift in Sources */,
 				BDC8D704218C3B39009FFBC2 /* ChatListViewController.swift in Sources */,
 				BD5C19C62191506500405BF6 /* MeViewController.swift in Sources */,
+				BD713ACF219576AD005A6424 /* MyCollectionViewCell.swift in Sources */,
 				BDE7649A219040BF006CFF74 /* ChatDetailViewController.swift in Sources */,
 				BDCA264A218B03F700B5D775 /* ViewController.swift in Sources */,
 				BDE764962190365D006CFF74 /* CustomCell.swift in Sources */,
@@ -283,6 +297,8 @@
 				BDCA2648218B03F700B5D775 /* AppDelegate.swift in Sources */,
 				BD5C19E621919DFE00405BF6 /* InfoViewController.swift in Sources */,
 				BD5C19C42191357400405BF6 /* FriendList.swift in Sources */,
+				BD713AD1219576BC005A6424 /* MyCollectionViewController.swift in Sources */,
+				BDD230FC2194363E005A3A3C /* ProfilePhotoViewController.swift in Sources */,
 				BD2A21E82192F45100A7E37B /* EditNameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CU35E5NET5;
 				INFOPLIST_FILE = LetChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,6 +469,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CU35E5NET5;
 				INFOPLIST_FILE = LetChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

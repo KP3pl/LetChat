@@ -7,11 +7,11 @@
 //
 
 import UIKit
-
+import FirebaseFirestore
 
 class InfoViewController: UIViewController, UITableViewDelegate,UITableViewDataSource {
     
-    @IBOutlet weak var infoCellTextLabel: UILabel!
+
     let infoArray = ["Profile Photo", "Edit Name", "WeChat ID", "My QR Code", "More"]
 
 
@@ -39,6 +39,7 @@ class InfoViewController: UIViewController, UITableViewDelegate,UITableViewDataS
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
         let selectedRow = infoArray[indexPath.row]
         //performSegue(withIdentifier: selectedRow, sender: self)
         if selectedRow == "Edit Name"{
